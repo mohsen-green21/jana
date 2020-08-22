@@ -123,7 +123,7 @@
                 </div>
                 {{-- flex form --}}
 
-                <div class="text-white  d-flex justify-content-center align-items-center" style="flex: 1">
+                <div class="text-white d-none d-md-flex justify-content-center align-items-center" style="flex: 1">
                     <img src="{{ asset('images/album.jpg') }}" style="width: 100% ; height: 100%;">
                 </div>
             </div>
