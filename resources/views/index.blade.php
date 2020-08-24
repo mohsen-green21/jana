@@ -26,7 +26,7 @@
         @foreach ($artists as $item)
 
         <div class="col-lg-4 col-md-12 mb-3  ">
-           <div class="bg-blue">
+           <div class="">
             <img src="{{$urlstorge.'/'.$item->avatar}}" class="img-fluid z-depth-1 " alt="Responsive image" width="100%"
                 style="height: 330px;border-radius: 25%">
            </div>
