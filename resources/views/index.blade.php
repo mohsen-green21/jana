@@ -20,9 +20,9 @@
     <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-12 mb-3">
+        <div class="col-md-12 mb-3 d-flex justify-content-center">
 
-            <img src="images/in.jpg" class="img-fluid z-depth-1 mt-2" alt="Responsive image">
+            <img src="images/gif.gif" class="img-fluid z-depth-1 mt-2" alt="Responsive image" style="">
 
         </div>
         <!-- Grid column -->
