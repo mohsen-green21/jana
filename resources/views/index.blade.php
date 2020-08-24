@@ -28,15 +28,18 @@
         <div class="col-lg-4 col-md-12 mb-3  ">
            <div class="">
             <img src="{{$urlstorge.'/'.$item->avatar}}" class="img-fluid z-depth-1 " alt="Responsive image" width="100%"
-                style="height: 330px;border-radius: 25%">
+                style="height: 330px;border-radius: 6%">
            </div>
-            <audio controls class=" d-none d-lg-inline mt-2   ">
+
+           <div class="d-flex justify-content-center">
+            <audio controls class=" d-none d-lg-inline mt-2  text-center ">
 
                 <source
                     src="{{$item->musics()->first() != null ? $urlstorge . '/' .  $item->musics()->first()->audioLink  : ''}}"
                     type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+            </div>
 
         </div>
         @endforeach
