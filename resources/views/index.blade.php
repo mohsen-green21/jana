@@ -5,7 +5,7 @@
     .anmtion {
         position: relative;
 
-        transition: top  2s;
+        transition: top  3s;
     }
 
     .anmtion:hover {
@@ -22,7 +22,7 @@
         <!-- Grid column -->
         <div class="col-md-12  d-flex justify-content-center">
 
-            <img src="images/gif.gif" class="img-fluid z-depth-1 mt-2" alt="Responsive image" style="">
+            <img src="images/gif3.gif" class="img-fluid z-depth-1 mt-2" alt="Responsive image" style="">
 
         </div>
         <!-- Grid column -->
