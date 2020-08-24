@@ -6,7 +6,7 @@
 
 
         <li class="dropdown notification-list">
-            <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#"
+            <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href=""
                role="button" aria-haspopup="false" aria-expanded="false">
 
              <img src="https://img.icons8.com/color/48/000000/admin-settings-male.png"/>
@@ -44,7 +44,7 @@
 
     <!-- LOGO -->
     <div class="logo-box">
-        <a href="" class="logo text-center ">
+        <a href="{{ url('/') }}" class="logo text-center ">
             <span class="logo-lg">
 <img src="https://img.icons8.com/color/48/000000/musical--v1.png"/>
 

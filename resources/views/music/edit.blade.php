@@ -59,8 +59,8 @@
                             اطلاعات آهنگ
                         </h5>
                         {{-- fild1 --}}
-                        <div class="d-flex">
-                            <div class="form-group mb-3 mr-3 " style="flex:1">
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="form-group mb-3 mr-0 mr-md-3 " style="flex:1">
                                 <label for="product-name">
                                    @lang('form.music_name')
                                     <span class="text-danger">
@@ -94,8 +94,8 @@
 
 
     {{-- fild2 --}}
-                        <div class="d-flex">
-                            <div class="form-group mb-3 mr-3 " style="flex:1">
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="form-group mb-3 mr-0 mr-md-3 " style="flex:1">
                                 <label for="product-name">
                                    موزیک
                                     <span class="text-danger">
@@ -139,8 +139,8 @@
                         {{-- fild2 end --}}
 
  {{-- fild3 --}}
-                        <div class="d-flex">
-                            <div class="form-group mb-3 mr-3 " style="flex:1">
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="form-group mb-3 mr-0 mr-md-3 " style="flex:1">
                                 <label for="product-name">
                                       @lang('form.music_data')
                                     <span class="text-danger">
@@ -171,8 +171,8 @@
                         {{-- fild3 end --}}
 
 {{-- fild4 --}}
-                        <div class="d-flex">
-                            <div class="form-group mb-3 mr-3 " style="flex:1">
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="form-group mb-3 mr-0 flex-md-3 " style="flex:1">
                                 <label>
                                       @lang('form.music_color')
                                     <span class="text-danger">

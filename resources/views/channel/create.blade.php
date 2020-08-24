@@ -65,8 +65,8 @@
                     <h5 class="text-uppercase bg-light p-2 mt-0 mb-3">
                         اطلاعات کانال
                     </h5>
-                    <div class="d-flex">
-                        <div class="form-group mb-3 mr-3" style="flex: 1">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="form-group mb-3 mr-0 mr-md-3" style="flex: 1">
                             <label for="product-name">
                                 @lang('form.channel_name')
                                 <span class="text-danger">
@@ -89,8 +89,8 @@
                             </input>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <div class="form-group mb-3 mr-3" style="flex: 1">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="form-group mb-3 mr-0 mr-md-3" style="flex: 1">
                             <label for="product-name">
                                 @lang('form.channel_des')
                                 <span class="text-danger">

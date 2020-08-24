@@ -1,7 +1,7 @@
 <!-- ========== Left Sidebar Start ========== -->
-<div class="left-side-menu">
+<div class="left-side-menu  ">
 
-    <div class="slimscroll-menu">
+    <div class="slimscroll-menu ">
 
         <!-- User box -->
         <div class="user-box text-center">
@@ -40,7 +40,7 @@
         </div>
 
         <!--- Sidemenu -->
-        <div id="sidebar-menu">
+        <div id="sidebar-menu " >
 
             <ul class="metismenu" id="side-menu">
 

@@ -54,8 +54,8 @@
                         اطلاعات هنرمند
                     </h5>
                    <input name="artist_id" value="{{ isset($artists->_id) ? $artists->_id : ''}}" type="hidden">
-                    <div class="d-flex">
-                        <div class="form-group mb-3 mr-3" style="flex: 1">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="form-group mb-3 mr-0 mr-md-3" style="flex: 1">
                             <label for="product-name">
                                       @lang('form.artist_name')
                                 <span class="text-danger">
@@ -83,8 +83,8 @@
                             </select>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <div class="form-group mb-3 mr-3" style="flex: 1">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="form-group mb-3 mr-0 mr-md-3" style="flex: 1">
                             <label for="product-name">
                                 @lang('form.artist_image')
                                 <span class="text-danger">

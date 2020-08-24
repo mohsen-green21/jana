@@ -43,7 +43,7 @@
     <h5 class="container bg-light p-2 text-uppercase">اطلاعات اسلایدر</h5>
     <form action="{{ url('slider/') }}" method="POST" enctype="multipart/form-data" class="">
         @csrf
-        <div class="d-flex mt-1">
+        <div class="d-flex mt-1 ">
             <div class="d-flex flex-column mr-3 mt-0" style="width: 50%">
                 <label>@lang('form.slider_title')</label>
                 <input type="text" value="{{old('title')}}" name="title"
